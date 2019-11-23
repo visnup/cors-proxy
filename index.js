@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const options = {
-  originWhitelist: ['http://localhost:3000'],
+  originWhitelist: ['https://visnup.static.observableusercontent.com'],
   requireHeader: ['origin', 'x-requested-with'],
   removeHeaders: ['cookie', 'cookie2']
 };
