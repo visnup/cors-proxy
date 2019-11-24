@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const cors_proxy = require("cors-anywhere").createServer({
-  originWhitelist: JSON.parse(process.env["cors-origins"]),
+  originWhitelist: JSON.parse(process.env["cors-origins"] || "[]"),
   requireHeader: ["origin", "x-requested-with"],
   removeHeaders: ["cookie"]
 });
