@@ -8,9 +8,5 @@
   },
   "dependencies": {
     "cors-anywhere": "^0.4.1"
-  },
-  "devDependencies": {
-    "micro": "^9.3.4",
-    "micro-dev": "^3.0.0"
   }
 }
